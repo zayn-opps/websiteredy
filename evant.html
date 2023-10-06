@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evant</title>
+</head>
+<body>
+    <button  onclick="change()">red</button>
+    <button id="gary">gary</button>
+    <button class="best" >menubar</button>
+    
+<script>
+function change(){
+    document.body.style.backgroundColor = "red";
+}
+//by id 
+let garybutton=document.getElementById('gary')
+
+garybutton.onclick=function(){
+    document.body.style.backgroundColor = "black";}
+
+    //classdiya 
+let estbutton=document.getElementsByClassName('best');
+estbutton.onclick=function(){
+    document.body.style.backgroundColor='black';
+} 
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+</body>
+</html>
